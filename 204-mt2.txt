@@ -1,0 +1,27 @@
+1. Balanced Bst / Hash table (not huge)
+2. Greedy method
+3. Divide and Conquer Revisited
+4. Dynamic Programming
+5. BFS/DFS ( not huge)
+
+saturday:
+greedy(fractional knapsack, job scheduling)
+- prove via contradictions
+	"Assume our solution is not optimal, then the optimal solution has x or y, which
+	our solution has therefore our solution is optimal"
+	"Assume our solution S and the optimal solution O, if S and O are different then according to the definition of greedy algorithm we made a mistake, but greedy algorithms by definition always lead to the local optimum solution"
+
+By way of contradiction, suppose optimum solution uses k machines while our
+greedy algorithm uses k > k machines. Consider the first time we put a job i on machine
+
+k + 1. One of the following must be true:
+– job i conflicts with all the last jobs on machines 1, . . . , k.
+– Each machine has reached its maximum k value.
+If the first is true, then the last jobs on machines 1, . . . , k run in parallel. Therefore, we need
+k + 1 processors. If the second is true, we also need k + 1 processors. Therefore, our greedy algorithm is optimal.
+
+
+dynamic (integral knapsack/MCM/rodcutting)
+
+
+
